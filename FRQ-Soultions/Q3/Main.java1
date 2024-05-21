@@ -1,0 +1,48 @@
+// import static org.junit.jupiter.api.Assertions.assertEquals;
+
+// import org.junit.jupiter.api.Test;
+import java.util.ArrayList; 
+public class Main {
+  public static void main(String[] args) {
+    System.out.println("Hello world!");
+
+    ArrayList<String> x= new ArrayList<String>(); 
+    x.add("an");
+    x.add("band");
+    x.add("band");
+    x.add("abandon"); 
+    WordChecker wc= new WordChecker(x);
+    System.out.println(wc.isWordChain()); 
+
+    
+    ArrayList<String> y= new ArrayList<String>();
+    y.add("to");
+    y.add("too");
+    y.add("stool");
+    y.add("tools");
+    WordChecker wc2= new WordChecker(y);
+    System.out.println(wc2.isWordChain());
+
+
+
+
+
+    ArrayList<String> cat= new ArrayList<String>();
+    cat.add("catch");
+    cat.add("bobcat");
+    cat.add("catchacat");
+    cat.add("cat");
+    cat.add("at");
+    WordChecker create = new WordChecker(cat);
+    System.out.println(create.createList("cat"));
+    System.out.println(create.createList("catch"));
+    System.out.println(create.createList("dog"));
+
+    
+  }
+
+  // @Test
+  // void addition() {
+  //     assertEquals(2, 1 + 1);
+  // }
+}
