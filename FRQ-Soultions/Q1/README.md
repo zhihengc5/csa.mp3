@@ -1,10 +1,10 @@
 #2024 Q1 
 
 ## This question is about...
--the amount of food eaten or left for one day or many days 
--There is a 5% chance the food is all eaten by a bear and 95% by birds
--there is a test for one day and many days
--they both return the amount of food left after the simulation
+- the amount of food eaten or left for one day or many days 
+- There is a 5% chance the food is all eaten by a bear and 95% by birds
+- there is a test for one day and many days
+- they both return the amount of food left after the simulation
 
 ## Struuggles with this question...
 - was with the start code for the loop of the many day simulation
